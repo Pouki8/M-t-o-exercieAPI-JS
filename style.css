@@ -1,0 +1,242 @@
+body {
+    background-color: rgb(72, 115, 124);
+    margin: 1%;
+    align-items: center;
+}
+
+.container {
+    background-color: rgb(156, 220, 232);
+    box-shadow: inset 1px 1px 25px 25px rgb(100, 152, 162);
+    border-style: solid;
+    border-color: rgb(100, 152, 162);
+    border-radius: 10%;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 8em;
+}
+
+.ville {
+    background-color: rgba(156, 221, 232, 0);
+    color: rgb(14, 16, 162);
+    border-style: none;
+    text-align: center;
+    font-size: 42px;
+}
+
+.calcul {
+    background-color: rgb(109, 191, 206);
+}
+
+.lever {
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.coucher {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.description {
+    font-size: larger;
+    margin-bottom: 0px;
+}
+
+.temp {
+    font-size: 40px;
+    margin-top: 15px;
+    color: rgb(255, 98, 0);
+    margin-bottom: 5px;
+}
+
+.icone {
+    padding-bottom: 5px;
+}
+
+.minetmax {
+    margin-bottom: 25px;
+}
+
+.min {
+    color: blue;
+    display: inline;
+    margin-right: 40%;
+    font-size: 20px;
+}
+
+.max {
+    color: red;
+    display: inline;
+    font-size: 20px;
+}
+
+
+/* Pour le jour suivant */
+
+.little {
+    background-color: rgb(156, 220, 232);
+    box-shadow: inset 1px 1px 25px 25px rgb(100, 152, 162);
+    border-style: solid;
+    display: block;
+    border-color: rgb(100, 152, 162);
+    border-radius: 15%;
+    text-align: center;
+    max-width: 80px;
+    padding: 25px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.date1 {
+    font-size: 15px;
+    margin-bottom: 1px;
+}
+
+.description1 {
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.icone1 {
+    padding-bottom: 0px;
+}
+
+.minetmax1 {
+    margin-bottom: 0%;
+}
+
+.min1 {
+    color: blue;
+    font-size: 10px;
+    margin-bottom: 0;
+}
+
+.max1 {
+    color: red;
+    display: inline;
+    font-size: 10px;
+}
+
+/* jour suivant */
+
+.date2 {
+    font-size: 15px;
+    margin-bottom: 1px;
+}
+
+.description2 {
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.icone2 {
+    padding-bottom: 0px;
+}
+
+.minetmax2 {
+    margin-bottom: 0%;
+}
+
+.min2 {
+    color: blue;
+    font-size: 10px;
+    margin-bottom: 0;
+}
+
+.max2 {
+    color: red;
+    display: inline;
+    font-size: 10px;
+}
+
+/* suivant */
+.date3 {
+    font-size: 15px;
+    margin-bottom: 1px;
+}
+
+.description3 {
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.icone3 {
+    padding-bottom: 0px;
+}
+
+.minetmax3 {
+    margin-bottom: 0%;
+}
+
+.min3 {
+    color: blue;
+    font-size: 10px;
+    margin-bottom: 0;
+}
+
+.max3 {
+    color: red;
+    display: inline;
+    font-size: 10px;
+}
+
+/* et dernier jour */
+.date4 {
+    font-size: 15px;
+    margin-bottom: 1px;
+}
+
+.description4 {
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.icone4 {
+    padding-bottom: 0px;
+}
+
+.minetmax4 {
+    margin-bottom: 0%;
+}
+
+.min4 {
+    color: blue;
+    font-size: 10px;
+    margin-bottom: 0;
+}
+
+.max4 {
+    color: red;
+    display: inline;
+    font-size: 10px;
+}
+
+/* class little-container */
+
+.little-container {
+    display: flex;
+    text-align: center;
+    margin-left: 32%;
+}
+
+@media only screen and (max-width: 768px) {
+    .little-container {
+        text-align: center;
+        margin-left: 15%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .little-container {
+        text-align: center;
+        margin-left: 5%;
+    }
+}
